@@ -12,8 +12,8 @@ Run the following command in your terminal:
 
 # How to use ?
 
-`import { useState } from "react"`
-`import { ModalApp } from "fpw-my-modal"`
+```import { useState } from "react"
+import { ModalApp } from "fpw-my-modal"```
 
 `const [openModal, setOpenModal] = useState(false)`
 
