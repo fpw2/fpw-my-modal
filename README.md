@@ -14,5 +14,5 @@ Run the following command in your terminal:
 
 `import { ModalApp } from "fpw-my-modal"`
 
-<ModalApp buttonText = "your-button-text" message = "your-modal-message" >
+`<ModalApp buttonText = "your-button-text" message = "your-modal-message" >`
 
