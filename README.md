@@ -15,11 +15,9 @@ Run the following command in your terminal:
 ```
 import { useState } from "react"
 import { ModalApp } from "fpw-my-modal"
-```
 
-`const [openModal, setOpenModal] = useState(false)`
+const [openModal, setOpenModal] = useState(false)
 
-```
 <Modal
     openModal={openModal},
     setOpenModal={setOpenModal}, 
