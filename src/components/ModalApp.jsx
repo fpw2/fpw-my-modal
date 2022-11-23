@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Container, ButtonModal } from "./styled";
-import Modal from "./Modal";
+import { Modal } from "./Modal";
 
 
-export const ModalApp = ({buttonText, message}) => {
+export const ModalApp = ({ buttonText, message }) => {
   const [modal, setModal] = useState(false);
 
 
