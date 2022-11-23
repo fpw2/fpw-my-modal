@@ -2,7 +2,6 @@ import styled, {
     keyframes
 } from "styled-components"
 
-
 const fadeIn = keyframes `
     0% {
     opacity: 0;
@@ -17,33 +16,11 @@ const fadeIn = keyframes `
     }
 `
 
-export const Container = styled.div `
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    box-sizing: border-box;
-`
-
-export const ButtonModal = styled.div `
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px 15px;
-    margin: 10px;
-    background: #2b8379;
-    color: $black;
-    font-size: 18px;
-    border-radius: 3px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
-    cursor: pointer;
-    &:hover {
-        background: #19a596;
-    }
-`
-
 export const ModalContainer = styled.div `
     ${(props) =>
         props.openModal &&
-        `  
+        `   margin: 0px;
+            padding:0px;
             position: fixed;
             height: 100vh;
             width: 100%;
@@ -57,9 +34,8 @@ export const ModalBackground = styled.div `
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    
-    `
+    text-align: center;  
+`
 
 export const ModalText = styled.div `      
     background-color: transparent;

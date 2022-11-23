@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { ModalApp } from './components/ModalApp';
+import { Modal } from './components/Modal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ModalApp buttonText="modal"  message="Employee created" />
+    <Modal buttonText="modal"  message="Employee created" />
   </React.StrictMode>
 );

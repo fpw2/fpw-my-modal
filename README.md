@@ -12,7 +12,15 @@ Run the following command in your terminal:
 
 # How to use ?
 
+`import { useState } from "react"`
 `import { ModalApp } from "fpw-my-modal"`
 
-`<ModalApp buttonText = "your-button-text" message = "your-modal-message" >`
+`const [openModal, setOpenModal] = useState(false)`
+
+`<Modal`
+    `openModal={openModal},` 
+    `setOpenModal={setOpenModal}, `
+    `message="your-modal-message",` 
+    `className="your-class"`
+`/>`
 

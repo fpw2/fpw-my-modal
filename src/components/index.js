@@ -1,3 +1,3 @@
-import { ModalApp } from "./ModalApp";
+import { Modal } from "./Modal";
 
-export { ModalApp }
+export { Modal }
