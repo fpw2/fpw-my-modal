@@ -1,4 +1,4 @@
-# Modal-App
+# fpw-my-modal
 
 ## Description
 
@@ -14,7 +14,7 @@ Run the following command in your terminal:
 
 ```
 import { useState } from "react"
-import { ModalApp } from "fpw-my-modal"
+import { Modal } from "fpw-my-modal"
 
 const [openModal, setOpenModal] = useState(false)
 
