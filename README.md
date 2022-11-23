@@ -17,10 +17,12 @@ Run the following command in your terminal:
 
 `const [openModal, setOpenModal] = useState(false)`
 
-`<Modal
+```
+<Modal
     openModal={openModal},
     setOpenModal={setOpenModal}, 
     message="your-modal-message",
     className="your-class"
-/>`
+/>
+```
 
