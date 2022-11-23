@@ -1,4 +1,4 @@
-# React-modal-lib
+# Modal-App
 
 ## Description
 
