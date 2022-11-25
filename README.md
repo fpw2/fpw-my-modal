@@ -25,4 +25,4 @@ const [openModal, setOpenModal] = useState(false)
     className="your-class"
 />
 ```
-If you want to customize the modal with the property className you have to override the default style with !important
+If you want to customize the modal with the property `className` you have to override the default style with `!important`
