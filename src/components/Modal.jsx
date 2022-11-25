@@ -5,7 +5,9 @@ import { ModalText } from "./styled";
 import { ModalClose } from "./styled";
 import { Close } from "./Close";
 
+
 export const Modal = ({ openModal, setOpenModal, message, className }) => {
+
   if (!openModal) {
     return null;
   } 
