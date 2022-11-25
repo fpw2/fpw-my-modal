@@ -19,10 +19,10 @@ import { Modal } from "fpw-my-modal"
 const [openModal, setOpenModal] = useState(false)
 
 <Modal
-    openModal={openModal},
-    setOpenModal={setOpenModal}, 
-    message="your-modal-message",
+    openModal={openModal}
+    setOpenModal={setOpenModal}
+    message="your-modal-message"
     className="your-class"
 />
 ```
-
+If you want to customize the modal with the property className you have to override the default style with !important
