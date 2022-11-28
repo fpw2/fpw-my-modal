@@ -5,7 +5,6 @@ import { ModalText } from "./styled";
 import { ModalClose } from "./styled";
 import { Close } from "./Close";
 
-
 export const Modal = ({ openModal, setOpenModal, message, className }) => {
 
   if (!openModal) {
@@ -14,7 +13,7 @@ export const Modal = ({ openModal, setOpenModal, message, className }) => {
 
   window.addEventListener("keydown", (e) => {
     if(e.key === "Escape" || e.key === "Esc") {
-      openModal = false
+      setOpenModal(false)
     }
   })
 
